@@ -3,8 +3,9 @@ import time
 
 url = 'http://naver.com'
 
-driver = webdriver.Chrome('/Users/hw/Desktop/python_study/chromedriver')  #구버전? 작동되긴 하는데 deprecated되었다고 뜸
-                                                                          #executable_path has been deprecated, please pass in a Service object
+driver = webdriver.Chrome('/Users/hw/Desktop/python_study/chromedriver')  
+#구버전? 작동되긴 하는데 deprecated되었다고 뜸
+#executable_path has been deprecated, please pass in a Service object
 
 driver.get(url)
 
@@ -29,3 +30,12 @@ time.sleep(2)
 
 driver.close()
 
+
+
+
+# 참고 사이트 
+# https://blog.naver.com/ree31206/222396021285
+# https://awintersky.tistory.com/8?category=759576
+# https://blog.naver.com/jsk6824/221763151860
+# https://blog.naver.com/jsk6824/221768421554
+# https://blog.naver.com/jsk6824/221752099024
